@@ -472,7 +472,7 @@ def export_anomalies_to_excel(daily_df, monthly_df, output_path):
 
 
 def main():
-    # Настройка аргументов командной строки (как у коллеги)
+    # Настройка аргументов командной строки 
     parser = argparse.ArgumentParser(description="Анализатор аномалий трафика (А-134)")
     parser.add_argument("--input", default="./input_data", help="Папка с входными файлами .xlsx")
     parser.add_argument("--output", default="./reports", help="Папка для сохранения отчетов и графиков")
